@@ -14,17 +14,17 @@ struct Token {
 		ATOM_NUMERIC,
 		ATOM_SYMBOL,
 		QUOTE,
-     } type;
+	} type;
 	std::string content;
- };
+};
 
 int main(int argc, char **argv) {
 	std::string prompt = "Lisp-Interpreter> ";
 	std::string input;
 
 	while (1) {
-    	std::cout << rep(input) << "\n";
-    }
+		std::cout << rep(input) << "\n";
+	}
 
 	return 0;
 }
